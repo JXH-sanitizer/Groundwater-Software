@@ -1,0 +1,28 @@
+{
+  "name": "mapbox",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "@tweenjs/tween.js": "^23.1.1",
+    "axios": "^1.6.7",
+    "element-plus": "^2.6.1",
+    "glsl-pcg-prng": "^1.0.2",
+    "mapbox-gl": "^3.0.1",
+    "mitt": "^3.0.1",
+    "pinia": "^2.1.7",
+    "three": "^0.162.0",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.4"
+  }
+}
